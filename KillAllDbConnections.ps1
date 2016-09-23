@@ -11,7 +11,7 @@ function KillDBConnections ($srvName, $DBName)
 
 }
 
-
+Push-Location
 KillDBConnections -srvName $server -DBName $db
 Pop-Location 
 
